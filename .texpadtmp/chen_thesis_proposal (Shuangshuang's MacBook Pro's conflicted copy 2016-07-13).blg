@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/xiangchen/Dropbox/PhDThesis/proposal/.texpadtmp/chen_thesis_proposal.aux
+The style file: plainnat.bst
+Database file #1: ../references.bib
+Warning--entry type for "thingiverse" isn't style-file defined
+--line 491 of file ../references.bib
+Warning--entry type for "pinterest" isn't style-file defined
+--line 498 of file ../references.bib
+Repeated entry---line 522 of file ../references.bib
+ : @inproceedings{teibrich2015patching
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 608 of file ../references.bib
+ : @inproceedings{buehler2015sharing
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 657 of file ../references.bib
+ : @inproceedings{davidoff2011mechanical
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 666 of file ../references.bib
+ : @article{de2011design
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--empty journal in barrett1990fastener
+Warning--empty journal in willkolmm2013assistive
+You've used 66 entries,
+            2773 wiz_defined-function locations,
+            924 strings with 17415 characters,
+and the built_in function-call counts, 36554 in all, are:
+= -- 3333
+> -- 2153
+< -- 60
++ -- 731
+- -- 663
+* -- 2820
+:= -- 5356
+add.period$ -- 234
+call.type$ -- 66
+change.case$ -- 408
+chr.to.int$ -- 64
+cite$ -- 134
+duplicate$ -- 1746
+empty$ -- 2934
+format.name$ -- 747
+if$ -- 7980
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 72
+newline$ -- 339
+num.names$ -- 264
+pop$ -- 970
+preamble$ -- 1
+purify$ -- 353
+quote$ -- 0
+skip$ -- 1383
+stack$ -- 0
+substring$ -- 1414
+swap$ -- 403
+text.length$ -- 34
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 681
+warning$ -- 2
+while$ -- 321
+width$ -- 0
+write$ -- 884
+(There were 4 error messages)

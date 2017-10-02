@@ -1,0 +1,767 @@
+\begin{thebibliography}{108}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aage et~al.(2013)Aage, Nobel-J{\o}rgensen, Andreasen, and
+  Sigmund]{aage2013interactive}
+Niels Aage, Morten Nobel-J{\o}rgensen, Casper~Schousboe Andreasen, and Ole
+  Sigmund.
+\newblock Interactive topology optimization on hand-held devices.
+\newblock \emph{Structural and Multidisciplinary Optimization}, 47\penalty0
+  (1):\penalty0 1--6, 2013.
+
+\bibitem[Aage et~al.(2014)Aage, Andreassen, and Lazarov]{aage2014topology}
+Niels Aage, Erik Andreassen, and Boyan~Stefanov Lazarov.
+\newblock Topology optimization using petsc.
+\newblock \emph{Struct Multidiscip Optim}, 2014.
+
+\bibitem[Agrawal et~al.(2015)Agrawal, Umapathi, Kovacs, Frohnhofen, Chen,
+  Mueller, and Baudisch]{agrawal2015protopiper}
+Harshit Agrawal, Udayan Umapathi, Robert Kovacs, Johannes Frohnhofen,
+  Hsiang-Ting Chen, Stefanie Mueller, and Patrick Baudisch.
+\newblock Protopiper: Physically sketching room-sized objects at actual scale.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 427--436. ACM, 2015.
+
+\bibitem[Andreassen et~al.(2011)Andreassen, Clausen, Schevenels, Lazarov, and
+  Sigmund]{andreassen2011efficient}
+Erik Andreassen, Anders Clausen, Mattias Schevenels, Boyan~S Lazarov, and Ole
+  Sigmund.
+\newblock Efficient topology optimization in matlab using 88 lines of code.
+\newblock \emph{Structural and Multidisciplinary Optimization}, 43\penalty0
+  (1):\penalty0 1--16, 2011.
+
+\bibitem[B{\"a}cher et~al.(2014)B{\"a}cher, Whiting, Bickel, and
+  Sorkine-Hornung]{bacher2014spin}
+Moritz B{\"a}cher, Emily Whiting, Bernd Bickel, and Olga Sorkine-Hornung.
+\newblock Spin-it: optimizing moment of inertia for spinnable objects.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 33\penalty0 (4):\penalty0
+  96, 2014.
+
+\bibitem[Bae et~al.(2008)Bae, Balakrishnan, and Singh]{bae2008ilovesketch}
+Seok-Hyung Bae, Ravin Balakrishnan, and Karan Singh.
+\newblock Ilovesketch: as-natural-as-possible sketching system for creating 3d
+  curve models.
+\newblock In \emph{Proceedings of the 21st annual ACM symposium on User
+  interface software and technology}, pages 151--160. ACM, 2008.
+
+\bibitem[Bae et~al.(2009)Bae, Balakrishnan, and
+  Singh]{bae2009everybodylovessketch}
+Seok-Hyung Bae, Ravin Balakrishnan, and Karan Singh.
+\newblock Everybodylovessketch: 3d sketching for a broader audience.
+\newblock In \emph{Proceedings of the 22nd annual ACM symposium on User
+  interface software and technology}, pages 59--68. ACM, 2009.
+
+\bibitem[Barrett(1990)]{barrett1990fastener}
+Richard~T Barrett.
+\newblock Fastener design manual.
+\newblock 1990.
+
+\bibitem[Bergen(1997)]{bergen1997efficient}
+Gino van~den Bergen.
+\newblock Efficient collision detection of complex deformable models using aabb
+  trees.
+\newblock \emph{Journal of Graphics Tools}, 2\penalty0 (4):\penalty0 1--13,
+  1997.
+
+\bibitem[Beyer et~al.(2015)Beyer, Gurevich, Mueller, Chen, and
+  Baudisch]{beyer2015platener}
+Dustin Beyer, Serafima Gurevich, Stefanie Mueller, Hsiang-Ting Chen, and
+  Patrick Baudisch.
+\newblock Platener: Low-fidelity fabrication of 3d objects by substituting 3d
+  print with laser-cut plates.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 1799--1806. ACM, 2015.
+
+\bibitem[Beyer and Holtzblatt(1997)]{beyer1997contextual}
+Hugh Beyer and Karen Holtzblatt.
+\newblock \emph{Contextual design: defining customer-centered systems}.
+\newblock Elsevier, 1997.
+
+\bibitem[Biyikli and To(2015)]{biyikli2015proportional}
+Emre Biyikli and Albert~C To.
+\newblock Proportional topology optimization: A new non-sensitivity method for
+  solving stress constrained and minimum compliance problems and its
+  implementation in matlab.
+\newblock \emph{PloS one}, 10\penalty0 (12):\penalty0 e0145041, 2015.
+
+\bibitem[Bonneel et~al.(2011)Bonneel, Van De~Panne, Paris, and
+  Heidrich]{bonneel2011displacement}
+Nicolas Bonneel, Michiel Van De~Panne, Sylvain Paris, and Wolfgang Heidrich.
+\newblock Displacement interpolation using lagrangian mass transport.
+\newblock In \emph{ACM Transactions on Graphics (TOG)}, volume~30, page 158.
+  ACM, 2011.
+
+\bibitem[Brockmeyer et~al.(2013)Brockmeyer, Poupyrev, and
+  Hudson]{brockmeyer2013papillon}
+Eric Brockmeyer, Ivan Poupyrev, and Scott Hudson.
+\newblock Papillon: designing curved display surfaces with printed optics.
+\newblock In \emph{Proceedings of the 26th annual ACM symposium on User
+  interface software and technology}, pages 457--462. ACM, 2013.
+
+\bibitem[Buehler et~al.(2014)Buehler, Hurst, and Hofmann]{buehler2014coming}
+Erin Buehler, Amy Hurst, and Megan Hofmann.
+\newblock Coming to grips: 3d printing for accessibility.
+\newblock In \emph{Proceedings of the 16th international ACM SIGACCESS
+  conference on Computers \& accessibility}, pages 291--292. ACM, 2014.
+
+\bibitem[Buehler et~al.(2015)Buehler, Branham, Ali, Chang, Hofmann, Hurst, and
+  Kane]{buehler2015sharing}
+Erin Buehler, Stacy Branham, Abdullah Ali, Jeremy~J Chang, Megan~Kelly Hofmann,
+  Amy Hurst, and Shaun~K Kane.
+\newblock Sharing is caring: Assistive technology designs on thingiverse.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 525--534. ACM, 2015.
+
+\bibitem[Chen et~al.(2015)Chen, Coros, Mankoff, and Hudson]{chen2015encore}
+Xiang~'Anthony' Chen, Stelian Coros, Jennifer Mankoff, and Scott~E Hudson.
+\newblock Encore: 3d printed augmentation of everyday objects with
+  printed-over, affixed and interlocked attachments.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 73--82. ACM, 2015.
+
+\bibitem[Chen et~al.(2016)Chen, Kim, Mankoff, Grossman, Coros, and
+  Hudson]{chen2016reprise}
+Xiang'Anthony' Chen, Jeeeun Kim, Jennifer Mankoff, Tovi Grossman, Stelian
+  Coros, and Scott~E Hudson.
+\newblock Reprise: A design tool for specifying, generating, and customizing 3d
+  printable adaptations on everyday objects.
+\newblock In \emph{the 29th Annual ACM Symposium on User Interface Software \&
+  Technology}. ACM, 2016.
+
+\bibitem[Chih-Ching(1998)]{chih1998new}
+Lo~Chih-Ching.
+\newblock A new approach to cnc tool path generation.
+\newblock \emph{Computer-Aided Design}, 30\penalty0 (8):\penalty0 649--655,
+  1998.
+
+\bibitem[Coppard and Lohman(2007)]{9780323033848}
+Brenda~M. Coppard and Helene Lohman.
+\newblock \emph{Introduction to Splinting: A Clinical Reasoning and
+  Problem-Solving Approach, 3e}.
+\newblock Mosby, 2007.
+\newblock ISBN 0323033849.
+
+\bibitem[Davidoff et~al.(2011)Davidoff, Villar, Taylor, and
+  Izadi]{davidoff2011mechanical}
+Scott Davidoff, Nicolas Villar, Alex~S Taylor, and Shahram Izadi.
+\newblock Mechanical hijacking: how robots can accelerate ubicomp deployments.
+\newblock In \emph{Proceedings of the 13th international conference on
+  Ubiquitous computing}, pages 267--270. ACM, 2011.
+
+\bibitem[De~Couvreur and Goossens(2011)]{de2011design}
+Lieven De~Couvreur and Richard Goossens.
+\newblock Design for (every) one: co-creation as a bridge between universal
+  design and rehabilitation engineering.
+\newblock \emph{CoDesign}, 7\penalty0 (2):\penalty0 107--121, 2011.
+
+\bibitem[Dumas et~al.(2014)Dumas, Hergel, and Lefebvre]{dumas2014bridging}
+J{\'e}r{\'e}mie Dumas, Jean Hergel, and Sylvain Lefebvre.
+\newblock Bridging the gap: Automated steady scaffoldings for 3d printing.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 33\penalty0 (4):\penalty0
+  98, 2014.
+
+\bibitem[Gal et~al.(2007)Gal, Sorkine, Popa, Sheffer, and Cohen-Or]{gal20073d}
+Ran Gal, Olga Sorkine, Tiberiu Popa, Alla Sheffer, and Daniel Cohen-Or.
+\newblock 3d collage: expressive non-realistic modeling.
+\newblock In \emph{Proceedings of the 5th international symposium on
+  Non-photorealistic animation and rendering}, pages 7--14. ACM, 2007.
+
+\bibitem[Gao et~al.(2015)Gao, Zhang, Nazzetta, Ramani, and
+  Cipra]{gao2015revomaker}
+Wei Gao, Yunbo Zhang, Diogo~C Nazzetta, Karthik Ramani, and Raymond~J Cipra.
+\newblock Revomaker: Enabling multi-directional and functionally-embedded 3d
+  printing using a rotational cuboidal platform.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 437--446. ACM, 2015.
+
+\bibitem[Gibson et~al.(2010)Gibson, Rosen, Stucker, et~al.]{gibson2010additive}
+Ian Gibson, David~W Rosen, Brent Stucker, et~al.
+\newblock \emph{Additive manufacturing technologies}, volume 238.
+\newblock Springer, 2010.
+
+\bibitem[Graham(1972)]{graham1972efficient}
+Ronald~L. Graham.
+\newblock An efficient algorith for determining the convex hull of a finite
+  planar set.
+\newblock \emph{Information processing letters}, 1\penalty0 (4):\penalty0
+  132--133, 1972.
+
+\bibitem[Grasshopper(2017)]{Stressto43:online}
+Grasshopper.
+\newblock Stress topology optimization with millipede.
+\newblock
+  \url{http://www.grasshopper3d.com/forum/topics/stress-topology-optimization-with-millipede},
+  2017.
+\newblock (Accessed on 08/23/2017).
+
+\bibitem[Groeger et~al.(2016)Groeger, Chong~Loo, and
+  Steimle]{groeger2016hotflex}
+Daniel Groeger, Elena Chong~Loo, and J{\"u}rgen Steimle.
+\newblock Hotflex: Post-print customization of 3d prints using embedded state
+  change.
+\newblock In \emph{Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 420--432. ACM, 2016.
+
+\bibitem[Hudson(2014)]{hudson2014printing}
+Scott~E Hudson.
+\newblock Printing teddy bears: a technique for 3d printing of soft interactive
+  objects.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 459--468. ACM, 2014.
+
+\bibitem[Hurst and Kane(2013)]{hurst2013making}
+Amy Hurst and Shaun Kane.
+\newblock Making making accessible.
+\newblock In \emph{Proceedings of the 12th International Conference on
+  Interaction Design and Children}, pages 635--638. ACM, 2013.
+
+\bibitem[Iarussi et~al.(2015)Iarussi, Li, and Bousseau]{iarussi2015wrapit}
+Emmanuel Iarussi, Wilmot Li, and Adrien Bousseau.
+\newblock Wrapit: computer-assisted crafting of wire wrapped jewelry.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (6):\penalty0
+  221, 2015.
+
+\bibitem[Igarashi et~al.(2007)Igarashi, Matsuoka, and
+  Tanaka]{igarashi2007teddy}
+Takeo Igarashi, Satoshi Matsuoka, and Hidehiko Tanaka.
+\newblock Teddy: a sketching interface for 3d freeform design.
+\newblock In \emph{Acm siggraph 2007 courses}, page~21. ACM, 2007.
+
+\bibitem[Inventor(2017)]{AboutSha59:online}
+Autodesk Inventor.
+\newblock About shape generator.
+\newblock
+  \url{https://knowledge.autodesk.com/support/inventor-products/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Inventor-Help/files/GUID-D74F47F3-FE22-44EF-85BE-7C6B1F56DCF9-htm.html},
+  2017.
+\newblock (Accessed on 08/31/2017).
+
+\bibitem[Ion et~al.(2016)Ion, Frohnhofen, Wall, Kovacs, Alistar, Lindsay,
+  Lopes, Chen, and Baudisch]{ion2016metamaterial}
+Alexandra Ion, Johannes Frohnhofen, Ludwig Wall, Robert Kovacs, Mirela Alistar,
+  Jack Lindsay, Pedro Lopes, Hsiang-Ting Chen, and Patrick Baudisch.
+\newblock Metamaterial mechanisms.
+\newblock In \emph{Proceedings of the 29th Annual Symposium on User Interface
+  Software and Technology}, pages 529--539. ACM, 2016.
+
+\bibitem[Jones and Ashby(2011)]{jones2011engineering}
+David~RH Jones and Michael~F Ashby.
+\newblock \emph{Engineering materials 1: An introduction to properties,
+  applications and design}.
+\newblock Elsevier, 2011.
+
+\bibitem[Jones et~al.(2016)Jones, Seppi, and Olsen]{jones2016you}
+Michael~D Jones, Kevin Seppi, and Dan~R Olsen.
+\newblock What you sculpt is what you get: Modeling physical interactive
+  devices with clay and 3d printed widgets.
+\newblock In \emph{Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 876--886. ACM, 2016.
+
+\bibitem[Kazi et~al.(2017)Kazi, Grossman, Cheong, Hashemi, and
+  Fitzmaurice]{kazi2017dreamsketch}
+Rubaiat~Habib Kazi, Tovi Grossman, Hyunmin Cheong, Ali Hashemi, and George
+  Fitzmaurice.
+\newblock Dreamsketch: Early stage 3d design explorations with sketching and
+  generative design.
+\newblock 2017.
+\newblock To appear at the 30th Annual ACM Symposium on User Interface Software
+  and Technology.
+
+\bibitem[Kovacs(2016)]{robertkovacs2016}
+Robert Kovacs.
+\newblock Bottleprint: Scaling personal fabrication by embedding ready-made
+  objects.
+\newblock Ph. D. Retreat of the HPI Research School on Service-oriented Systems
+  Engineering, 2016.
+
+\bibitem[Koyama et~al.(2015)Koyama, Sueda, Steinhardt, Igarashi, Shamir, and
+  Matusik]{koyama2015autoconnect}
+Yuki Koyama, Shinjiro Sueda, Emma Steinhardt, Takeo Igarashi, Ariel Shamir, and
+  Wojciech Matusik.
+\newblock Autoconnect: computational design of 3d-printable connectors.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (6):\penalty0
+  231, 2015.
+
+\bibitem[Laput et~al.(2015)Laput, Brockmeyer, Hudson, and
+  Harrison]{laput2015acoustruments}
+Gierad Laput, Eric Brockmeyer, Scott~E Hudson, and Chris Harrison.
+\newblock Acoustruments: Passive, acoustically-driven, interactive controls for
+  handheld devices.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 2161--2170. ACM, 2015.
+
+\bibitem[Lin and Koren(1996)]{lin1996efficient}
+Rong-Shine Lin and Y~Koren.
+\newblock Efficient tool-path planning for machining free-form surfaces.
+\newblock \emph{Journal of engineering for industry}, 118\penalty0
+  (1):\penalty0 20--28, 1996.
+
+\bibitem[Luo et~al.(2015)Luo, Yue, Huang, Chung, Imai, Nishita, and
+  Chen]{luo2015legolization}
+Sheng-Jie Luo, Yonghao Yue, Chun-Kai Huang, Yu-Huan Chung, Sei Imai, Tomoyuki
+  Nishita, and Bing-Yu Chen.
+\newblock Legolization: optimizing lego designs.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (6):\penalty0
+  222, 2015.
+
+\bibitem[MacCurdy et~al.(2015)MacCurdy, Katzschmann, Kim, and
+  Rus]{maccurdy2015printable}
+Robert MacCurdy, Robert Katzschmann, Youbin Kim, and Daniela Rus.
+\newblock Printable hydraulics: A method for fabricating robots by 3d
+  co-printing solids and liquids.
+\newblock \emph{arXiv preprint arXiv:1512.03744}, 2015.
+
+\bibitem[Mart{\'\i}nez et~al.(2015)Mart{\'\i}nez, Dumas, Lefebvre, and
+  Wei]{martinez2015structure}
+Jon{\`a}s Mart{\'\i}nez, J{\'e}r{\'e}mie Dumas, Sylvain Lefebvre, and Li-Yi
+  Wei.
+\newblock Structure and appearance optimization for controllable shape design.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (6):\penalty0
+  229, 2015.
+
+\bibitem[MatWeb(2017)]{NatureWo45:online}
+MatWeb.
+\newblock Natureworks ingeo\textsuperscript{TM} 2002d extrusion grade pla.
+\newblock
+  \url{http://www.matweb.com/search/DataSheet.aspx?MatGUID=1e288619764846d2b794bd077e7f1bba&ckck=1},
+  2017.
+\newblock (Accessed on 09/05/2017).
+
+\bibitem[Meagher(1980)]{meagher1980octree}
+Donald~JR Meagher.
+\newblock \emph{Octree encoding: A new technique for the representation,
+  manipulation and display of arbitrary 3-d objects by computer}.
+\newblock Electrical and Systems Engineering Department Rensseiaer Polytechnic
+  Institute Image Processing Laboratory, 1980.
+
+\bibitem[Memoli et~al.(2017)Memoli, Caleap, Asakawa, Sahoo, Drinkwater, and
+  Subramanian]{memoli2017metamaterial}
+Gianluca Memoli, Mihai Caleap, Michihiro Asakawa, Deepak~R Sahoo, Bruce~W
+  Drinkwater, and Sriram Subramanian.
+\newblock Metamaterial bricks and quantization of meta-surfaces.
+\newblock \emph{Nature Communications}, 8:\penalty0 14608, 2017.
+
+\bibitem[Mueller et~al.(2014{\natexlab{a}})Mueller, Im, Gurevich, Teibrich,
+  Pfisterer, Guimbreti{\`e}re, and Baudisch]{mueller2014wireprint}
+Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa
+  Pfisterer, Fran{\c{c}}ois Guimbreti{\`e}re, and Patrick Baudisch.
+\newblock Wireprint: 3d printed previews for fast prototyping.
+\newblock In \emph{Proceedings of the 27th annual ACM symposium on User
+  interface software and technology}, pages 273--280. ACM, 2014{\natexlab{a}}.
+
+\bibitem[Mueller et~al.(2014{\natexlab{b}})Mueller, Mohr, Guenther, Frohnhofen,
+  and Baudisch]{mueller2014fabrickation}
+Stefanie Mueller, Tobias Mohr, Kerstin Guenther, Johannes Frohnhofen, and
+  Patrick Baudisch.
+\newblock fabrickation: fast 3d printing of functional objects by integrating
+  construction kit building blocks.
+\newblock In \emph{Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pages 3827--3834. ACM, 2014{\natexlab{b}}.
+
+\bibitem[Mueller et~al.(2015)Mueller, Fritzsche, Kossmann, Schneider, Striebel,
+  and Baudisch]{mueller2015scotty}
+Stefanie Mueller, Martin Fritzsche, Jan Kossmann, Maximilian Schneider,
+  Jonathan Striebel, and Patrick Baudisch.
+\newblock Scotty: Relocating physical objects across distances using
+  destructive scanning, encryption, and 3d printing.
+\newblock In \emph{Proceedings of the Ninth International Conference on
+  Tangible, Embedded, and Embodied Interaction}, pages 233--240. ACM, 2015.
+
+\bibitem[Norman(2013)]{norman2013design}
+Donald~A Norman.
+\newblock \emph{The design of everyday things: Revised and expanded edition}.
+\newblock Basic books, 2013.
+
+\bibitem[Panetta et~al.(2015)Panetta, Zhou, Malomo, Pietroni, Cignoni, and
+  Zorin]{panetta2015elastic}
+Julian Panetta, Qingnan Zhou, Luigi Malomo, Nico Pietroni, Paolo Cignoni, and
+  Denis Zorin.
+\newblock Elastic textures for additive fabrication.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (4):\penalty0
+  135, 2015.
+
+\bibitem[Peng et~al.(2015{\natexlab{a}})Peng, Mankoff, Hudson, and
+  McCann]{peng2015layered}
+Huaishu Peng, Jennifer Mankoff, Scott~E Hudson, and James McCann.
+\newblock A layered fabric 3d printer for soft interactive objects.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 1789--1798. ACM, 2015{\natexlab{a}}.
+
+\bibitem[Peng et~al.(2015{\natexlab{b}})Peng, Zoran, and
+  Guimbreti{\`e}re]{peng2015d}
+Huaishu Peng, Amit Zoran, and Fran{\c{c}}ois~V Guimbreti{\`e}re.
+\newblock D-coil: A hands-on approach to digital 3d models design.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 1807--1815. ACM, 2015{\natexlab{b}}.
+
+\bibitem[Peng et~al.(2016)Peng, Wu, Marschner, and
+  Guimbreti{\`e}re]{peng2016fly}
+Huaishu Peng, Rundong Wu, Steve Marschner, and Fran{\c{c}}ois Guimbreti{\`e}re.
+\newblock On-the-fly print: Incremental printing while modelling.
+\newblock In \emph{Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 887--896. ACM, 2016.
+
+\bibitem[Pinterest()]{pinterest}
+Pinterest, 2016.
+\newblock \url{http://www.pinterest.com/}.
+
+\bibitem[Piya(2016)]{piya2016}
+Vinayak Zhang Yunbo Ramani~Karthik Piya, Cecil.
+\newblock Realfusion: An interactive workflow for repurposing real-world
+  objects towards early-stage creative ideation.
+\newblock In \emph{Proceedings of the 42th Graphics Interface Conference},
+  2016.
+
+\bibitem[Plaxen(2005)]{plaxen2005adapt}
+J~Rose Plaxen.
+\newblock \emph{Adapt my world: Homemade adaptations for people with
+  disabilities}.
+\newblock Seven Locks Press, 2005.
+
+\bibitem[Pr{\'e}vost et~al.(2013)Pr{\'e}vost, Whiting, Lefebvre, and
+  Sorkine-Hornung]{prevost2013make}
+Romain Pr{\'e}vost, Emily Whiting, Sylvain Lefebvre, and Olga Sorkine-Hornung.
+\newblock Make it stand: balancing shapes for 3d fabrication.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 32\penalty0 (4):\penalty0
+  81, 2013.
+
+\bibitem[Ramaker et~al.(2016)Ramaker, Anderson, Grossman, and
+  Fitzmaurice]{ramaker2015retrofab}
+Raf Ramaker, Fraser Anderson, Tovi Grossman, and George Fitzmaurice.
+\newblock Retrofab: A design tool for retrofitting physical interfaces using
+  actuators, sensors and 3d printing.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}. ACM, 2016.
+
+\bibitem[Ramakers et~al.(2016)Ramakers, Anderson, Grossman, and
+  Fitzmaurice]{ramakers2016retrofab}
+Raf Ramakers, Fraser Anderson, Tovi Grossman, and George Fitzmaurice.
+\newblock Retrofab: A design tool for retrofitting physical interfaces using
+  actuators, sensors and 3d printing.
+\newblock \emph{Proc. of SIGCHI. ACM}, 2016.
+
+\bibitem[Rivera et~al.(2017)Rivera, Moukperian, Ashbrook, Mankoff, and
+  Hudson]{rivera2017stretching}
+Michael~L Rivera, Melissa Moukperian, Daniel Ashbrook, Jennifer Mankoff, and
+  Scott~E Hudson.
+\newblock Stretching the bounds of 3d printing with embedded textiles.
+\newblock In \emph{Proceedings of the 2017 CHI Conference on Human Factors in
+  Computing Systems}, pages 497--508. ACM, 2017.
+
+\bibitem[Robitaille(2010)]{robitaille2010illustrated}
+Suzanne Robitaille.
+\newblock \emph{The illustrated guide to assistive technology and devices:
+  Tools and gadgets for living independently}.
+\newblock ReadHowYouWant. com, 2010.
+
+\bibitem[Saul et~al.(2011)Saul, Lau, Mitani, and Igarashi]{saul2011sketchchair}
+Greg Saul, Manfred Lau, Jun Mitani, and Takeo Igarashi.
+\newblock Sketchchair: an all-in-one chair design system for end users.
+\newblock In \emph{Proceedings of the fifth international conference on
+  Tangible, embedded, and embodied interaction}, pages 73--80. ACM, 2011.
+
+\bibitem[Savage et~al.(2013)Savage, Chang, and Hartmann]{savage2013sauron}
+Valkyrie Savage, Colin Chang, and Bj{\"o}rn Hartmann.
+\newblock Sauron: embedded single-camera sensing of printed physical user
+  interfaces.
+\newblock In \emph{Proceedings of the 26th annual ACM symposium on User
+  interface software and technology}, pages 447--456. ACM, 2013.
+
+\bibitem[Savage et~al.(2014)Savage, Schmidt, Grossman, Fitzmaurice, and
+  Hartmann]{savage2014series}
+Valkyrie Savage, Ryan Schmidt, Tovi Grossman, George Fitzmaurice, and Bj{\"o}rn
+  Hartmann.
+\newblock A series of tubes: Adding interactivity to 3d prints using internal
+  pipes.
+\newblock In \emph{Proceedings of the 27th annual ACM symposium on User
+  interface software and technology}, pages 3--12. ACM, 2014.
+
+\bibitem[Savage et~al.(2015{\natexlab{a}})Savage, Follmer, Li, and
+  Hartmann]{savage2015makers}
+Valkyrie Savage, Sean Follmer, Jingyi Li, and Bj{\"o}rn Hartmann.
+\newblock Makers' marks: Physical markup for designing and fabricating
+  functional objects.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 103--108. ACM, 2015{\natexlab{a}}.
+
+\bibitem[Savage et~al.(2015{\natexlab{b}})Savage, Head, Hartmann, Goldman,
+  Mysore, and Li]{savage2015lamello}
+Valkyrie Savage, Andrew Head, Bj{\"o}rn Hartmann, Dan~B Goldman, Gautham
+  Mysore, and Wilmot Li.
+\newblock Lamello: Passive acoustic sensing for tangible input components.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 1277--1280. ACM, 2015{\natexlab{b}}.
+
+\bibitem[Schmidt and Umetani(2014)]{schmidt2014branching}
+Ryan Schmidt and Nobuyuki Umetani.
+\newblock Branching support structures for 3d printing.
+\newblock In \emph{ACM SIGGRAPH 2014 Studio}, page~9. ACM, 2014.
+
+\bibitem[Schmitz et~al.(2016)Schmitz, Leister, Dezfuli, Riemann, M{\"u}ller,
+  and M{\"u}hlh{\"a}user]{schmitz2016liquido}
+Martin Schmitz, Andreas Leister, Niloofar Dezfuli, Jan Riemann, Florian
+  M{\"u}ller, and Max M{\"u}hlh{\"a}user.
+\newblock Liquido: Embedding liquids into 3d printed objects to sense tilting
+  and motion.
+\newblock In \emph{Proceedings of the 2016 CHI Conference Extended Abstracts on
+  Human Factors in Computing Systems}, pages 2688--2696. ACM, 2016.
+
+\bibitem[Schull(2015)]{schull2015enabling}
+Jon Schull.
+\newblock Enabling the future: Crowdsourced 3d-printed prostheticsas a model
+  for open source assistive technologyinnovation and mutual aid.
+\newblock In \emph{Proceedings of the 17th International ACM SIGACCESS
+  Conference on Computers \& Accessibility}, pages 1--1. ACM, 2015.
+
+\bibitem[Schumacher et~al.(2015)Schumacher, Bickel, Rys, Marschner, Daraio, and
+  Gross]{schumacher2015microstructures}
+Christian Schumacher, Bernd Bickel, Jan Rys, Steve Marschner, Chiara Daraio,
+  and Markus Gross.
+\newblock Microstructures to control elasticity in 3d printing.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (4):\penalty0
+  136, 2015.
+
+\bibitem[Shea et~al.(2003)Shea, Aish, and Gourtovaia]{shea2003towards}
+Kristina Shea, Robert Aish, and Marina Gourtovaia.
+\newblock Towards integrated performance-based generative design tools.
+\newblock \emph{Digital Design, ECAADE}, pages 253--264, 2003.
+
+\bibitem[Sigmund(2001)]{sigmund200199}
+Ole Sigmund.
+\newblock A 99 line topology optimization code written in matlab.
+\newblock \emph{Structural and multidisciplinary optimization}, 21\penalty0
+  (2):\penalty0 120--127, 2001.
+
+\bibitem[Sitthi-Amorn et~al.(2015)Sitthi-Amorn, Ramos, Wangy, Kwan, Lan, Wang,
+  and Matusik]{sitthi2015multifab}
+Pitchaya Sitthi-Amorn, Javier~E Ramos, Yuwang Wangy, Joyce Kwan, Justin Lan,
+  Wenshou Wang, and Wojciech Matusik.
+\newblock Multifab: a machine vision assisted platform for multi-material 3d
+  printing.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (4):\penalty0
+  129, 2015.
+
+\bibitem[Skylar-Scott et~al.(2016)Skylar-Scott, Gunasekaran, and
+  Lewis]{skylar2016laser}
+Mark~A Skylar-Scott, Suman Gunasekaran, and Jennifer~A Lewis.
+\newblock Laser-assisted direct ink writing of planar and 3d metal
+  architectures.
+\newblock \emph{Proceedings of the National Academy of Sciences}, page
+  201525131, 2016.
+
+\bibitem[Song et~al.(2006)Song, Guimbreti{\`e}re, Hu, and
+  Lipson]{song2006modelcraft}
+Hyunyoung Song, Fran{\c{c}}ois Guimbreti{\`e}re, Chang Hu, and Hod Lipson.
+\newblock Modelcraft: capturing freehand annotations and edits on physical 3d
+  models.
+\newblock In \emph{Proceedings of the 19th annual ACM symposium on User
+  interface software and technology}, pages 13--22. ACM, 2006.
+
+\bibitem[Song et~al.()Song, Deng, Wang, Dong, Li, Fu, and Liu]{songcofifab}
+Peng Song, Bailin Deng, Ziqi Wang, Zhichao Dong, Wei Li, Chi-Wing Fu, and
+  Ligang Liu.
+\newblock Cofifab: Coarse-to-fine fabrication of large 3d objects.
+\newblock \emph{ACM Transactions on Graphics}.
+
+\bibitem[Stoller(1999)]{9781933940021}
+Lynn Stoller.
+\newblock \emph{Low Tech Assistive Devices: A Handbook for the School Setting}.
+\newblock Therapro, Inc., 1999.
+\newblock ISBN 1933940026.
+
+\bibitem[Strang(2011)]{strang2011introduction}
+Gilbert Strang.
+\newblock Introduction to linear algebra, 2011.
+
+\bibitem[Szabo and Babu{\v{s}}ka(1991)]{szabo1991finite}
+Barna~Aladar Szabo and Ivo Babu{\v{s}}ka.
+\newblock \emph{Finite element analysis}.
+\newblock John Wiley \& Sons, 1991.
+
+\bibitem[Teibrich et~al.(2015)Teibrich, Mueller, Guimbreti{\`e}re, Kovacs,
+  Neubert, and Baudisch]{teibrich2015patching}
+Alexander Teibrich, Stefanie Mueller, Fran{\c{c}}ois Guimbreti{\`e}re, Robert
+  Kovacs, Stefan Neubert, and Patrick Baudisch.
+\newblock Patching physical objects.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 83--91. ACM, 2015.
+
+\bibitem[Terry and Mynatt(2002)]{terry2002side}
+Michael Terry and Elizabeth~D Mynatt.
+\newblock Side views: persistent, on-demand previews for open-ended tasks.
+\newblock In \emph{Proceedings of the 15th annual ACM symposium on User
+  interface software and technology}, pages 71--80. ACM, 2002.
+
+\bibitem[Tetelman and McEvily(1967)]{tetelman1967fracture}
+Alan~S Tetelman and Arthur~J McEvily.
+\newblock \emph{Fracture of structural materials}.
+\newblock Wiley, 1967.
+
+\bibitem[Thingiverse()]{thingiverse}
+Thingiverse, 2016.
+\newblock \url{http://www.thingiverse.com/}.
+
+\bibitem[Torres et~al.(2016)Torres, Li, and Paulos]{torres2016proxyprint}
+Cesar Torres, Wilmot Li, and Eric Paulos.
+\newblock Proxyprint: Supporting crafting practice through physical
+  computational proxies.
+\newblock In \emph{Proceedings of the 2016 ACM Conference on Designing
+  Interactive Systems}, pages 158--169. ACM, 2016.
+
+\bibitem[Ulu et~al.(2015)Ulu, Korkmaz, Yay, Ozdoganlar, and
+  Kara]{ulu2015enhancing}
+Erva Ulu, Emrullah Korkmaz, Kubilay Yay, O~Burak Ozdoganlar, and Levent~Burak
+  Kara.
+\newblock Enhancing the structural performance of additively manufactured
+  objects through build orientation optimization.
+\newblock \emph{Journal of Mechanical Design}, 137\penalty0 (11):\penalty0
+  111410, 2015.
+
+\bibitem[Umetani and Schmidt(2013)]{umetani2013cross}
+Nobuyuki Umetani and Ryan Schmidt.
+\newblock Cross-sectional structural analysis for 3d printing optimization.
+\newblock \emph{SIGGRAPH Asia}, 5:\penalty0 1--4, 2013.
+
+\bibitem[Umetani et~al.(2012)Umetani, Igarashi, and Mitra]{umetani2012guided}
+Nobuyuki Umetani, Takeo Igarashi, and Niloy~J Mitra.
+\newblock Guided exploration of physically valid shapes for furniture design.
+\newblock \emph{ACM Trans. Graph.}, 31\penalty0 (4):\penalty0 86--1, 2012.
+
+\bibitem[Vasilevitsky and Zoran(2016)]{vasilevitsky2016steel}
+Tatyana Vasilevitsky and Amit Zoran.
+\newblock Steel-sense: Integrating machine elements with sensors by additive
+  manufacturing.
+\newblock In \emph{Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 5731--5742. ACM, 2016.
+
+\bibitem[V{\'a}zquez et~al.(2015)V{\'a}zquez, Brockmeyer, Desai, Harrison, and
+  Hudson]{vazquez20153d}
+Marynel V{\'a}zquez, Eric Brockmeyer, Ruta Desai, Chris Harrison, and Scott~E
+  Hudson.
+\newblock 3d printing pneumatic device controls with variable activation force
+  capabilities.
+\newblock In \emph{Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 1295--1304. ACM, 2015.
+
+\bibitem[Wang et~al.(2016)Wang, Yao, Wang, Ou, Cheng, and
+  Ishii]{wang2016xprint}
+Guanyun Wang, Lining Yao, Wen Wang, Jifei Ou, Chin-Yi Cheng, and Hiroshi Ishii.
+\newblock xprint: A modularized liquid printer for smart materials deposition.
+\newblock In \emph{Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 5743--5752. ACM, 2016.
+
+\bibitem[Weichel et~al.(2014)Weichel, Lau, Kim, Villar, and
+  Gellersen]{weichel2014mixfab}
+Christian Weichel, Manfred Lau, David Kim, Nicolas Villar, and Hans~W
+  Gellersen.
+\newblock Mixfab: a mixed-reality environment for personal fabrication.
+\newblock In \emph{Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pages 3855--3864. ACM, 2014.
+
+\bibitem[Weichel et~al.(2015)Weichel, Hardy, Alexander, and
+  Gellersen]{weichel2015reform}
+Christian Weichel, John Hardy, Jason Alexander, and Hans Gellersen.
+\newblock Reform: Integrating physical and digital design through bidirectional
+  fabrication.
+\newblock In \emph{Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \& Technology}, pages 93--102. ACM, 2015.
+
+\bibitem[Werner(1987)]{werner1987disabled}
+David Werner.
+\newblock Disabled village children.
+\newblock \emph{Palo Alto, California: The Hesperian Foundation}, 14, 1987.
+
+\bibitem[Wikipedia(2016{\natexlab{a}})]{wiki:Fab@Home}
+Wikipedia.
+\newblock {Fab@Home} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Fab\%40Home&oldid=725172260},
+  2016{\natexlab{a}}.
+\newblock [Online; accessed 30-July-2016].
+
+\bibitem[Wikipedia(2016{\natexlab{b}})]{wiki:Fastener}
+Wikipedia.
+\newblock {Fastener} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Fastener&oldid=724820940},
+  2016{\natexlab{b}}.
+\newblock [Online; accessed 17-June-2016].
+
+\bibitem[Wikipedia(2016{\natexlab{c}})]{wiki:Laminated_objectmanufacturing}
+Wikipedia.
+\newblock {Laminated object manufacturing} --- {W}ikipedia{,} the free
+  encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Laminated\%20object\%20manufacturing&oldid=686975516},
+  2016{\natexlab{c}}.
+\newblock [Online; accessed 01-August-2016].
+
+\bibitem[Wikipedia(2016{\natexlab{d}})]{wiki:Stereolithography}
+Wikipedia.
+\newblock {Stereolithography} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Stereolithography&oldid=725718453},
+  2016{\natexlab{d}}.
+\newblock [Online; accessed 29-July-2016].
+
+\bibitem[Wikipedia(2016{\natexlab{e}})]{wiki:sls}
+Wikipedia.
+\newblock {Selective laser sintering} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Selective\%20laser\%20sintering&oldid=714526189},
+  2016{\natexlab{e}}.
+\newblock [Online; accessed 29-July-2016].
+
+\bibitem[Willis et~al.(2012)Willis, Brockmeyer, Hudson, and
+  Poupyrev]{willis2012printed}
+Karl Willis, Eric Brockmeyer, Scott Hudson, and Ivan Poupyrev.
+\newblock Printed optics: 3d printing of embedded optical elements for
+  interactive devices.
+\newblock In \emph{Proceedings of the 25th annual ACM symposium on User
+  interface software and technology}, pages 589--598. ACM, 2012.
+
+\bibitem[Willis and Wilson(2013)]{willis2013infrastructs}
+Karl~DD Willis and Andrew~D Wilson.
+\newblock Infrastructs: fabricating information inside physical objects for
+  imaging in the terahertz region.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 32\penalty0 (4):\penalty0
+  138, 2013.
+
+\bibitem[Willkolmm(2013)]{willkolmm2013assistive}
+Therese Willkolmm.
+\newblock Assistive technology solutions in minutes ii: Ordinary items,
+  extraordinary solutions.
+\newblock 2013.
+
+\bibitem[Yumer et~al.(2015)Yumer, Chaudhuri, Hodgins, and
+  Kara]{yumer2015semantic}
+Mehmet~Ersin Yumer, Siddhartha Chaudhuri, Jessica~K Hodgins, and Levent~Burak
+  Kara.
+\newblock Semantic shape editing using deformation handles.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 34\penalty0 (4):\penalty0
+  86, 2015.
+
+\bibitem[Zhou et~al.(2014)Zhou, Sueda, Matusik, and
+  Shamir]{zhou2014boxelization}
+Yahan Zhou, Shinjiro Sueda, Wojciech Matusik, and Ariel Shamir.
+\newblock Boxelization: folding 3d objects into boxes.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 33\penalty0 (4):\penalty0
+  71, 2014.
+
+\bibitem[Zhou et~al.(2016)Zhou, Kalogerakis, Wang, and Grosse]{zhou2016direct}
+Yahan Zhou, Evangelos Kalogerakis, Rui Wang, and Ian~R Grosse.
+\newblock Direct shape optimization for strengthening 3d printable objects.
+\newblock In \emph{Computer Graphics Forum}, volume~35, pages 333--342. Wiley
+  Online Library, 2016.
+
+\bibitem[Zienkiewicz et~al.(1977)Zienkiewicz, Taylor, Zienkiewicz, and
+  Taylor]{zienkiewicz1977finite}
+Olgierd~Cecil Zienkiewicz, Robert~Leroy Taylor, Olgierd~Cecil Zienkiewicz, and
+  Robert~Lee Taylor.
+\newblock \emph{The finite element method}, volume~3.
+\newblock McGraw-hill London, 1977.
+
+\end{thebibliography}

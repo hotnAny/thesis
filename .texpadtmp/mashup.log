@@ -1,0 +1,97 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.2.27)  13 JUL 2017 16:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**mashup.tex
+(./mashup.tex
+./mashup.tex:1: Undefined control sequence.
+l.1 \chapter
+            {Mixed-Initiative Design for Real World Functional Requirements}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:7: Undefined control sequence.
+l.7 ...uld be difficult to create a design \textit
+                                                  {in situ} from these real ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:9: Undefined control sequence.
+l.9 ...ch is to employ topology optimization \cite
+                                                  {bendsoe2013topology}---a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:13: Undefined control sequence.
+l.13 ...ch are discussed in depth by Horvitz \cite
+                                                  {horvitz1999principles}. F...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:15: Undefined control sequence.
+l.15 \xac
+         {moved original review to Ch2; added a few more optimization-specif...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:16: Undefined control sequence.
+l.16 ...d result that can then be fabricated \cite
+                                                  {christiansen2015combined}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:16: Undefined control sequence.
+l.16 ..., allowing million-scaled resolution \cite
+                                                  {wu2016system}. Although w...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./mashup.tex:24: Undefined control sequence.
+l.24 \begin
+           {itemize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./mashup.tex:28: Undefined control sequence.
+l.28 \begin
+           {itemize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2] )</usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /Users/xiangchen/Dropbox/PhDThesis/proposal/.texpadtmp/mashup.pdf (2 pages, 28435 bytes).
+PDF statistics:
+ 15 PDF objects out of 1000 (max. 8388607)
+ 9 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,72 @@
+\chapter{Summary and Timeline}
+%In exploring my thesis research, many existing issues, limitations, and new ideas have emerged, which I discuss in this chapter as reflection on my work to date, as well as envisioning future research.
+%
+%\section{Design for Real Use, with Real Objects, by Real People}
+%One important motivation of my research is how we are resuscitating our ability to create things and bring our ideas to physical reality. My work begins with considering not just fabricating objects from scratch, but also to consider their relationship with real world objects, starting with making attachments to them. Then I continue to think about function---creating functional attachments as adaptations or sketching functional objects, both of which address real use cases customizable by users.
+%
+%However, in my work thus far, users only seem to have control over the digital process of fabrication, such as creating and editing a digital 3D model for fabrication; in contrast, they become much less involved in the actual fabrication process, which is still predominantly taken care of by the machines. Always thinking in terms of what machines can make inevitably limits users' imagination. For example, quickly browsing through an online community like Thingiverse, one would find that most of the 3D printed objects are somewhat small, due to the limited print volume of most consumer-grade printers. Soft objects, as another class of objects, also seem less common as many 3D printers today primarily use hard filament. Users' imagination for making larger scale objects seems somewhat suppressed by the awareness of the printer's limitation. Further, the benefits of actively involving the users in the actual making process is currently underexplored.
+%
+%In analogy, other fields such as Artificial Intelligence, have long realized that putting humans in the loop can sometimes elegantly solve problems that would otherwise be much harder, if not impossible, for machines to solve. How can we put makers actually in the loop of making, rather than just doing digital design? A recent paper by Sageman-Furnas et al. introduces a post-processing step, in which a user would melt and bend part of a 3D printed object to create curvy structure \cite{sageman2015meltables}. Adding this extra user-performed step allows the printing process to bypass limitations of a 3D printer: the pre-melted and pre-bent objects can be printed `straight', which saves time, avoids using support structure, and is more homogeneously strong. Users' involvement in this process is quite minimum, as the objects are also preprocessed and printed in ways that support melting and bending.
+%
+%Sageman-Furnas's work demonstrates that by finding the perfect combination between a machine's capability (and limitation) and a user's involvement, we can solve some existing hard problems in fabrication, or create new ways of making unforeseen by purely machine-executed process alone. One interesting future topic would be to experiment more ways to put users in the loop of the actual fabrication process. How can the existing machine-based process benefit from having users' involvement? How can users themselves benefit from getting their hands `dirty' into the fabrication process?
+%
+%\section{Obstacles and Solutions of Digitalizing the Real World}
+%To tie fabrication to the real world, a prerequisite is the ability to digitalize existing objects, physical environments, sometimes people. However, up to date there are still very few feasible solutions to achieve easy-to-use and high quality digitalization. Compared to going from digital models to physical objects (e.g., by using a 3D printer), the other direction just seems intrinsically much harder. Foremost, optically captured data of physical object, such as point cloud, can have uncertain precision. In other application domains such as sensing full body motion and gestures, such imperfection can be mitigated by statistical techniques. 3D reconstruction, however, is building an object from scratch and there is usually little existing `ground truth' or other references \footnote{unless we have a priori knowledge about the object being reconstructed} with which one can reduce the sensors' imprecisions.
+%
+% Further, even with relatively high accuracy, the captured data is just discrete points in 3D space that has no global knowledge of what the object is like. Thus model reconstruction is required to process such data. However, as the data is too low-level, mapping it to a high-level 3D model introduces yet another level of uncertainty. As a result, consumer-grade 3D scanners often produce models that have lost much of the original geometric property of an object (or produce erroneous versions of it).
+%
+%Alternatively, it is also possible to manually model an object. Human effort is often added as a post-processing step of digital scanning. Experts could also measure a physical object and create a 3D model from scratch to approximate it. Obviously, this approach is time and labor consuming, and is not scalable considering the variety of real world objects out there.
+%
+%As we await further advancement of digitalization techniques, it might be worth rethinking how we can work around the limited existing solutions. Specifically, to design augmentations or adaptations, it is \textit{not} always necessary to have a high-fidelity, fully digitalized model of an object. Usually we are only concerned with part of the object rather than the whole of it. Further, the goal is to make fabrication attachable to and can be used against the object in specific ways. This can be achieved without having to acquire every single geometric detail. For attachment, it usually suffices to know what kind of surface we are dealing with. A pipe clamp, for example, can work across a range of cylindrical surfaces without having to address the finer details on those surfaces. Given this insight, the AutoConnect \cite{koyama2015autoconnect} paper introduces three categories of geometry---cylinders, rectangular prisms, and planer surface--that can proximate a range of everyday objects and simplify the design of connectors. There is still much space for future work on `digitalization on demand'---rather than an overkill of full-fledged scanning, we should obtain a digital model in the right fidelity with accuracy that suffices to fulfill a user-defined purpose.
+%
+%
+%\section{Design Tools + Fabrication Tech = Physical Creativity}
+%As 3D printers have become reasonably easy to use, the bottleneck of fabrication seems to have shifted to the modeling part. Although 3D modeling has been quite well researched for several decades, never has it been so close to the actual fabrication of the object, thanks to the democratization of 3D printers. I believe it is the fabrication technology that generates a new `pull' for design tools, which are expected to {\em (i)} address practical problems such as accelerating print speed \cite{mueller2014wireprint}, increasing strength given the anisotropic nature of current printing method \cite{umetani2013cross}, and optimizing support structure for reliable yet economic printing \cite{dumas2014bridging}; {\em (ii)} enable users' creativity and customization, such as how Encore helps realize users' idea of attaching one thing to another, and Reprise allows them to `redesign' the functionality of an existing object.
+%
+%In order to realize physical creativity, what we really need is design tools that can harness fabrication technology for people's use, through which they are free to express, iterate and finally physicalize their ideas. In the future, we will expect to see more manufacturing machineries reinvented into consumer-grade devices. Soon enough, instead of buying from retail stores, we will start making a larger variety of everyday things, including things that are not makable by today's 3D printers. Design tools would be the bridge that connect end-users and these emerging fabrication devices. Perhaps we will have an equivalence of an `app store' for making, where each app is developed to support design tasks for a specific process of making, or to enhance and optimize the usage of the machine.
+%
+%\section{Next Generation of 3D Design Tool?}
+%The `pull' of design tools begs the question: what would be the future generation of these tools that go beyond their capability today? As I develop design tools for fabrication, an implicit goal is to make them easy to understand and use, and their tasks as simple as possible. However, as I try to achieve this I also realize no matter how such a tool or its task is simplified, it always seems to require some non-trivial understanding and knowledge of the 3D world. This is probably because currently these tools all stay in the same paradigm, limited to using mouse and keyboard on a 2D screen space. This, foremost, imposes a limit on the freedom and intuitiveness of basic maneuvering and manipulation of the 3D world. As post-GUI interaction techniques have come a long way in HCI research, we should ask how 3D design tools as well as the fabrication process would benefit from such development. For example, would VR or AR make a better design environment or in some ways guide the users to be a handier maker? Some recent work, such as MixFab \cite{weichel2014mixfab} allow users to design objects with gestures in an immersive augmented reality environment, while also able to introduce real physical object into the process. This work foresees a type of future design tool: instead of separating design from the making process, users will be able to perform a design task while making that design. With such a closer feedback loop, users can hopefully iterate their designs in a more efficient manner. Another such example is Mueller et al.'s Interactive Construction system, which allows a user to `sketch' a 2D design as the laser cutter performs makes that design on-the-fly \cite{mueller2012interactive}.
+%
+%Another class of future design tools might have to do with enhancing users' ability to create aesthetically pleasing and functionally valid designs. This implies that these tools are not dealing with the geometry of 3D objects. A variety of knowledge from other domains needs to come into play. For example, with the abundance of raw material, the design tool should inform users what material would be most appropriate for the design and its target usage. One analogy for these future design tools is today's apps for beautifying photos via applying filters---users should be able to select a domain-specific `filter' and apply it to their design, which will automatically fix local problems or optimize the overall structure.
+%
+%\xac{moved the timeline here}
+%\section{Summary of Proposal and Timeline}
+Most people started 3D printing by making something that is actually useful for their daily life, which is a very \textit{real} motivation. However, such a straightforward problem does not come with a straightforward solution. Foremost, 3D printing and many other personal fabrication technologies are oblivious of the real world. They are good at converting geometry into physical objects, but by default they have no idea what and how these objects will be attached to, how they will be installed or assembled, how and how well they will function in the real world context. These questions beyond the conventional fabrication process need to be answered early on and integrated into the design and fabrication workflow, so that there is a guarantee that the things we make are not just physical instantiation of digital shapes, but are also functional in relation to the real world. My thesis work consists of a series of attempts to loop knowledge and awareness of the real world into design iterations. Specifically,
+
+\begin{itemize}
+	\item I have explored attachment techniques by analyzing geometry and customizing the 3D printing process; these techniques are fundamentally important for augmenting real world objects with 3D printed components (Chapter 3).
+	\item Given these attachment techniques, I have continued to explore how to design such attachments, specifically, how a design tool allows users to describe the usage of real world objects, based on which they can quickly generate 3D printable parts that adapt these objects in their own customized ways (Chapter 4).
+	\item Beyond incrementally augmenting/adapting existing objects, I am now working on mixed-initiative approaches for non-expert users to design functional objects that will be situated into real world context and support or function with other real world objects (Chapter 5).
+	\item Since functional objects will eventually be put to use in the real world, my next step will explore moving the design environment into the real world context as well: with the help of AR, my goal is to use digital information to guide physical creation and installation, and use digitalized real world objects to inform the virtual design tasks (Chapter 6).
+\end{itemize}
+
+Below is my timeline for finishing up all the projects.
+\vskip 16pt
+
+\scalebox{1}{
+\begin{tabular}{r |@{\foo} l}
+
+Summer 2016 & Developing mixed-initiative tool (Mashup) for functional design\\
+            & Learning and setting up Augmented Reality (AR) devices\\
+            & \\
+Fall 2016   & Writing up Mashup for CHI 2017 submission\\
+            & Literature survey on AR-assisted manufacturing\\
+            & Designing AR-based design and fabrication environment\\
+            & \\
+Winter 2016 & Prototyping interaction techniques\\
+            & Integration into a system\\
+            & Deploying the system for actual fabrication\\
+            & \\
+Spring 2017 & Writing up for UIST 2017 submission\\
+            & Writing up the corresponding thesis chapter\\
+            & \\
+Summer 2017 & Thesis writing\\
+			& Thesis defense\\
+
+\end{tabular}
+}
+
+\vskip 16pt
+
+Through this research, I have sought to enable people to \textit{make fabrication real}: to design and fabricate things for real usage, working with real objects, functioning in the real world context, and also importantly, actually made with an involvement of real people. I hope this work will pave our way to a future where novel design tools can help people harness fabrication technology to make or augment almost anything in the real world.
