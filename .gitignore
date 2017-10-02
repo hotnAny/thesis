@@ -1,3 +1,6 @@
 chen_thesis_proposal.pdf
 *.docx
 .texpadtmp/*
+.DS_Store
+.dropbox
+Icon?
