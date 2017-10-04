@@ -64,7 +64,7 @@ We envision Forte will empower professionals who design structures, such as indu
   \caption{Forte's three types of design optimization iteratively generate structures based on user's sketch while providing them with real-time visual feedback akin to an animiation (a-e), the result of which can be controlled by a global `similarity' value (f-h).}~\label{fig:techniques}
 \end{figure*}
 
-In this section, we describe users' interaction with Forte and its key features for user-driven generative design, while leaving the technical details for later in the next section. Specifically, we will walk through a usage scenario: creating a 2D design of a leg for a quadruped robot (Figure~\ref{fig:design_scene}). The design goal is three-fold: {\em (i)} in contact with the ground (Figure~\ref{fig:design_scene}b), the leg needs to be optimized for supporting the weight of the robot's body (Figure~\ref{fig:design_scene}a), {\em (ii)} it needs to be lightweight to ensure the overall efficiency of the robot, and {\em (iii)} its form also needs to be customized with respect to other user-defined goals such as aesthetics. Below we first go through some basic concepts and terminologies and then demonstrate how Forte allows users to jointly achieve these goals.
+In this section, we describe users' interaction with Forte and its key features for user-driven generative design, while leaving the technical details for later in the next section. Specifically, we will walk through a usage scenario: creating a 2D design of a leg for a quadruped robot (Figure~\ref{fig:design_scene}). The design goal is three-fold: {\em (i)} in contact with the ground (Figure~\ref{fig:design_scene}b), the leg needs to be optimized for supporting the weight of the robot's body (Figure~\ref{fig:design_scene}a), {\em (ii)} it needs to be lightweight to ensure the overall efficiency of the robot, and {\em (iii)} its form also needs to be customized with respect to other user-defined goals such as aesthetics. Below we first revisit some basic concepts and terminologies and then demonstrate how Forte allows users to jointly achieve these goals.
 
 \subsection{Basic Concepts and Terminologies}
 Generative design via topology optimization considers an object as a distribution of a certain amount of material in order to meet certain performance criteria. This paper focuses on structural performance, which is optimizing structures---with only a limited amount of material available---to support a given load. For instance, a robot leg should be designed to support the weight of the robot's body with a lightweight structure. In Forte, a design consists of a sketch (considered below) and a \textbf{loading scenario}, which include {\em(i)} where the expected \textbf{loads} are and how large they are, and {\em(ii)} \textbf{boundary conditions}, which is where the object is in contact with its environment (e.g., a robot leg will touch the ground, as shown in Figure~\ref{fig:design_scene}). Based on this input, Forte will then generate structures via different types of \textbf{design optimization}, i.e., distributing allocated material in a structurally optimized way. Each type of optimization is also constrained by a given \textbf{amount of material}, which is typically measured by the percentage of the entire \textbf{design domain}--the bounding box of the design object (Figure~\ref{fig:design_scene}c). For example, 30\% material means the material used for the robot leg amounts to 30\% the size of its bounding box\footnote{We discuss later in the design sessions that participants found this to be a problematic way of measuring material, as it seems hard to get an intuitive estimate based on bounding boxes.}.
@@ -173,14 +173,14 @@ As the user runs one of the three optimizations, Forte creates and records a tri
   \caption{Users can suggestively add material to a generated result (circled strokes), which prompts the system to re-run the optimization and attempt to add structures accordingly.}~\label{fig:local_editing_pencil}
 \end{figure}
 
-\subsection{\#3 Refining Optimization with Local Suggestive Edits}
+\subsection{Refining Optimization with Local Suggestive Edits}
 The similarity value allows users to control the optimization outcome at a global level with respect to the entire design. Complementarily, once a result is generated, users can also perform fine local editing, which will prompt the system to re-run the optimization, taking into account users' underlying intent of the edit. For example, if a user wants a thinner tip of the robot leg, they can use the eraser tool (Figure~\ref{fig:overview}c) to scrub that area (Figure~\ref{fig:local_editing_eraser}a, shadowed part). The system immediately starts a new optimization and returns an updated result with less material on the tip of the leg. Increasing the erasing `power' and applying it again finally sharpen the leg, but results in a rough outline (Figure~\ref{fig:local_editing_eraser}b). We can also use this tool to smooth the optimized result (Figure~\ref{fig:local_editing_eraser}c).
 
 Similarly, the user can also use the pen tool (Figure~\ref{fig:overview}c) to draw on an optimization result, such as adding a truss to the leg (Figure~\ref{fig:local_editing_pencil}ab). The system will also re-run the optimization and will attempt to generate some structures where the new truss is drawn (Figure~\ref{fig:local_editing_pencil}).
 
 This technique is called suggestive editing, as users' action do not directly remove or add to the design; rather, it serves to suggest their intent to the system, e.g., ``I want less material here'', or ``I would like to add something there''. The next round of structure generation will take into account such intent and attempt to realize it through the optimization process. However, intent cannot be realized if the removal or addition of material compromises the structural integrity of the design (e.g., removing the entire bottom part of the robot leg, making it unable to stand on the ground).
 
-\subsection{\#4 Informing Performance Trade-offs with Visualization}
+\subsection{Informing Performance Trade-offs with Visualization}
 As users exploratively customize the optimization process, it is important to inform them of the performance trade-offs. Forte allows users to toggle a stress visualization (Figure~\ref{fig:overview}) overlaying each optimized result (Figure~\ref{fig:sim_mat}) . The heat map indicates which part of a design is the weakest; it also allows users to compare different designs' performance and see how the stress situations evolve as the design evolves. Users can also adjust the safety factor: a higher value is equivalent to assuming more weight, thus revealing more structurally problematic areas in the design.
  
 % \pagebreak
@@ -366,19 +366,12 @@ Figure~\ref{fig:participants_design} shows other designs created by our particip
 \section{Post-processing and Fabricated Results}
 Forte enables users to formulate, express and optimize their design in a 2D environment. To  fabricate their designs into 3D artifacts, we describe three post-processing techniques using external tools (e.g., the Rhinoceros\footnote{\url{https://www.rhino3d.com/}} CAD system) for fabrication and showcase some of the fabricated results.
 
-\begin{figure} [h!]
+\begin{figure} [t]
   \centering
   \vskip 8pt
   \includegraphics[width=1\textwidth]{figures/result_collage}
   \caption{Fabricated examples designed from Forte's generated structures: legs for a quadruped robot (a); a bike seat (b); an S-shaped chair (c); high heels (d); pet jumping platforms (e); a reading chair (f); and a tea table (g).}~\label{fig:result_collage}
 \end{figure}
-
-
-\begin{figure*} [t]
-  \centering
-  \includegraphics[width=1\textwidth]{figures/results}
-  \caption{All our fabricated examples from the sketches in Forte, to generated 2D designs, and to post-processed 3D models; we performed a Finite Element Analysis on each 3D model based on the input loading scenario, which shows consistent stress distribution across a range of increasing loads.}~\label{fig:results}
-\end{figure*}
 
 \textbf{Extrusion} We can extrude a 2D design along a path to create a 3D object. First we convert a generated design from a bitmap to a vector graphic, which can already be used in a laser cutter to create planar objects, such as the legs for the quadruped robot (Figure~\ref{fig:result_collage}a). Further we can also import the vector graphics to a 3D modeling tool for creating a 2D surface and extruding it to a 3D object. We use this technique to create a multi-functional reading chair that consists of an overhead light, a reclined sitting area, and bookshelves (Figure~\ref{fig:result_collage}f). Extrusion is not limited to a perpendicular path: for example, it is possible to extrude the 2D chair profile in Figure~\ref{fig:result_collage}c along a circular path to create a bench.
 
@@ -422,7 +415,11 @@ Currently each of Forte's optimized result is initiated and driven by the users.
 \textbf{Enabling more semantic controls of design optimization}
 On the input side, we are interested in enabling more semantic controls of design optimization beyond the similarity value. For example, in Yumer et al.'s work \cite{yumer2015semantic} they developed a number of semantic metrics for 3D models by having the crowd perform pair-wise comparison on a large data set. In the future, we want to let users label and quantify each optimization result, e.g., `how organic is this bike frame' and `how thin or muscular is this chair'. By collecting these quantified labels, we hope to map the space of the input parameters (e.g., amount of material, similarity, clearance) to the semantic space of the optimization outcome. This can potentially enable the `transfer' of design, e.g., applying a set of input parameters from an organic-looking bike frame design to turn this chair into a similar style.
 
-
+\begin{figure*} [h!]
+  \centering
+  \includegraphics[width=1\textwidth]{figures/results}
+  \caption{All our fabricated examples from the sketches in Forte, to generated 2D designs, and to post-processed 3D models; we performed a Finite Element Analysis on each 3D model based on the input loading scenario, which shows consistent stress distribution across a range of increasing loads.}~\label{fig:results}
+\end{figure*}
 
 
 
@@ -577,3 +574,4 @@ On the input side, we are interested in enabling more semantic controls of desig
 
 % \section{Summary of Mixed-Initiative, Functionally-Aware Design}
 % In contrast to Reprise's tasks of making adaptations attached to existing objects, Mashup attempts to produce standalone designs with functional relationships to real world objects. Specifically, it focuses on combining the requirement of supporting loads of these objects and the freedom for users to express their own design. This mixed-initiative approach brings everyday users further into the realm of functional fabrication without demanding much of expertise from them. In so doing, I hope we can expand the range of things everyday users can make. The next chapter will discuss further involving the users in the fabrication process, by supporting them in carrying out making tasks on their own.
+	
